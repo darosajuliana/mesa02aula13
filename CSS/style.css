@@ -20,7 +20,7 @@ main img{
 }
 
 label, select{
-    display:block
+    display:block;
 }
 
 input, textarea{
@@ -29,4 +29,11 @@ input, textarea{
 
 select{
     margin: 0px auto 15px;
+}
+
+button{
+    background-color: #374887;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
 }
