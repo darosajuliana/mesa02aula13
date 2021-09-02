@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Devo</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <img src="/IMG/banco.png" alt="logo devo">
+        </section>
+        <form action="#" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="Insira seu email">
+            
+            <label for="nome">Nome: </label>
+            <input type="text"name="nome" id="nome" required>
+            
+            <label for="endereço">Endereço</label>
+            <textarea name="endereço" id="endereço" cols="30" rows="10">Fugindo do agiota</textarea>
+
+            <select name="servicos" id="servicos">
+                <option value="">Selecione</option>
+                <option value="emprestimo">Empréstimo</option>
+                <option value="chequeespecial">Cheque Especial</option>
+                <option value="pagasogra">Paga Sogra</option>
+                <option value="pagaamigo">Paga Amigo</option>
+                <option value="pagarbar">Paga Bar</option>
+            </select>
+            <button type="submit"> Pedir </button>
+            <button type="reset"> Cancelar </button>
+        </form>
+    </main>
+</body>
+
+</html>

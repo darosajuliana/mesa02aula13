@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Anton', sans-serif;
+    background-color: white;
+}
+
+main{
+    text-align: center;
+}
+
+main img{
+    width: 250px;
+}
+
+label, select{
+    display:block
+}
+
+input, textarea{
+    margin-bottom: 15px;
+}
+
+select{
+    margin: 0px auto 15px;
+}
